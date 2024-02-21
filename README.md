@@ -26,5 +26,19 @@
 
 ## デスクトップ画面の配置
 以下の画像のように武者絵4枚, 美人画4枚, person.png, Discordをデスクトップに配置<br>
-各画像やDiscordのテキストボックスの座標を確認し, midjourney.pyのCoordinationの値を変更<br>
+各画像やDiscordのテキストボックスの座標を確認し, midjourney.pyのCoordinateの値を変更<br>
 <img src="https://github.com/kemco2019/ukiyoe_kuniyoshi/assets/128669621/fc8b7200-7cd7-4877-81b8-219ce9509432" width="800">
+
+## 実行
+0. ローカルサーバを起動, download.py, get_url.pyは常時実行
+   ```
+   php -S 127.0.0.1:8080
+   python3 download.py
+   python3 get_url.py
+   ```
+2. camera.phpをロードしカメラを起動, 撮影(Cキー：撮影, Qキー：カメラ終了)
+3. start.phpで武者絵風, 美人画風のいずれかを選択し丸印をクリック
+4. making.phpに遷移
+5. 画像生成が終わるとfinish.phpに遷移
+6. finish.phpで保存ボタンをクリックしサーバに生成画像をアップロード
+7. 戻るボタンでstart.phpに戻る
