@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 # Copyright © 2001-2023 Python Software Foundation; All Rights Reserved
 
-discord_token = "DISCORD_TOKEN_OF_YOUR_BOT"
+discord_token = "YOUR_DISCORD_BOT_TOKEN"
 client = commands.Bot(command_prefix="*", intents=discord.Intents.all())
 
 @client.event
