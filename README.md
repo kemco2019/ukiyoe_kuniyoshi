@@ -30,16 +30,17 @@
 <img src="https://github.com/kemco2019/ukiyoe_kuniyoshi/assets/128669621/fc8b7200-7cd7-4877-81b8-219ce9509432" width="800">
 
 # 実行
-※ モニタを繋ぐなどし, デスクトップ画面とブラウザ画面を別画面で表示すること<br>
+※ モニタを繋ぐなどし, デスクトップ画面とブラウザ画面を別画面で表示すること
+
 0. ローカルサーバを起動, download.py, get_url.pyは常時実行
    ```
    php -S 127.0.0.1:8080
    python3 download.py
    python3 get_url.py
    ```
-2. camera.phpをロードしカメラを起動, 撮影(Cキー：撮影, Qキー：カメラ終了)
-3. start.phpで武者絵風, 美人画風のいずれかを選択し丸印をクリック
-4. making.phpに遷移
-5. 画像生成が終わるとfinish.phpに遷移
-6. finish.phpで保存ボタンをクリックしサーバに生成画像をアップロード
-7. 戻るボタンでstart.phpに戻る
+1. camera.phpをロードしカメラを起動, 撮影(Cキー：撮影, Qキー：カメラ終了)
+2. start.phpで武者絵風, 美人画風のいずれかを選択し丸印をクリック
+3. making.phpに遷移
+4. 画像生成が終わるとfinish.phpに遷移
+5. finish.phpで保存ボタンをクリックしサーバに生成画像をアップロード
+6. 戻るボタンでstart.phpに戻る
