@@ -1,9 +1,9 @@
 <link rel="stylesheet" href="midjourney5.css">
 <?php
-    $host = "mysql57.kemco.sakura.ne.jp";
-    $dbName = "kemco_ukiyoe";
-    $username = "kemco";
-    $password = "h76-id_z";
+    $host = "DATABASE_SERVER";
+    $dbName = "DATABASE_NAME";
+    $username = "USER_NAME";
+    $password = "PASSWORD";
     $dsn = "mysql:host={$host};dbname={$dbName};charser=utf8";
     try {
         $dbh = new PDO($dsn, $username, $password);
@@ -28,4 +28,4 @@
         echo '</div>';
     }
 ?>
-<a href="http://127.0.0.1:8080/ukiyoe/start.php" class="btn_03">戻る</a>
+<a href="http://127.0.0.1:8080/YOUR_PATH/start.php" class="btn_03">戻る</a>
