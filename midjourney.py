@@ -13,15 +13,16 @@ load_dotenv()
 client = commands.Bot(command_prefix="*", intents=discord.Intents.all())
 directory = os.getcwd()
 
-click_x = 947
-click_y = 816
-photo_woman_x = 1256  
-photo_man_x = 1371
-photo_y = 297
-photo_interval = 106
-drag_x = 227
-drag_y = 752
-drag_interval = 123
+# Coordinate
+click_x = 947 # textbox on discord(x)
+click_y = 816 # textbox on discord(y)
+photo_woman_x = 1256 # bijin-ga on desktop(x)
+photo_man_x = 1371 # musya-e on desktop(x)
+photo_y = 297 # top bijin-ga & musya-e on desktop(y)
+photo_interval = 106 # vertical spacing of images
+drag_x = 227 # leftmost　space to upload images on discord(x)
+drag_y = 752 # space to upload images on discord(y)
+drag_interval = 123 # horizontal spacing of space to upload images on discord
 sex = int(sys.argv[1])
 
 def blend_image(sex):   # man:0 woman:1
