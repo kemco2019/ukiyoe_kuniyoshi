@@ -13,3 +13,9 @@
 - myfile.txt:画像URL書き込みファイル
 - start.php:画風選択ページ
 - upload.php:生成画像アップロードページ
+
+# 使用方法
+## データベース作成
+
+## Discord Bot作成
+参考URL:https://medium.com/@neonforge/how-to-create-a-discord-bot-to-download-midjourney-images-automatically-python-step-by-step-guide-90b6a8336e82
