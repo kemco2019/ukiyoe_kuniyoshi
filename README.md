@@ -29,7 +29,7 @@
 各画像やDiscordのテキストボックスの座標を確認し, midjourney.pyのCoordinateの値を変更<br>
 <img src="https://github.com/kemco2019/ukiyoe_kuniyoshi/assets/128669621/fc8b7200-7cd7-4877-81b8-219ce9509432" width="800">
 
-## 実行
+# 実行
 0. ローカルサーバを起動, download.py, get_url.pyは常時実行
    ```
    php -S 127.0.0.1:8080
