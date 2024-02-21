@@ -7,7 +7,7 @@ import os
 import sys
 # Copyright © 2001-2023 Python Software Foundation; All Rights Reserved
 
-discord_token = "DISCORD_TOKEN_OF_YOUR_BOT"
+discord_token = "YOUR_DISCORD_BOT_TOKEN"
 CHANNEL = 0000000000000000000  #channel id (general in Midjourney Image Download Server)
 load_dotenv()
 client = commands.Bot(command_prefix="*", intents=discord.Intents.all())
