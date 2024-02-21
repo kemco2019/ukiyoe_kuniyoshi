@@ -1,5 +1,5 @@
 # AI国芳
-顔写真を基に歌川国芳の武者絵または美人画風の似顔絵を生成
+顔写真を基に歌川国芳の武者絵または美人画風の似顔絵を生成<br>
 参考URL：https://studio.kemco.keio.ac.jp/ukiyoe2023/kuniyoshi_ichiran
 
 # 概要
