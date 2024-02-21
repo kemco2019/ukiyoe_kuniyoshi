@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 # Copyright © 2001-2023 Python Software Foundation; All Rights Reserved
 
-discord_token = "YOUR_DISCORD_BOT_TOKEN"
+discord_token = "YOUR_DISCORD_BOT_TOKEN" # ukiyoe_bot
 client = commands.Bot(command_prefix="*", intents=discord.Intents.all())
 
 @client.event
