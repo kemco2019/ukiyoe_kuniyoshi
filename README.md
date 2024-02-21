@@ -18,7 +18,7 @@
 ## データベース作成
 
 ## Discordの設定
-1."Midjourney Image Download Server"というサーバを作成し
-2.Midjourney BotをMidjourney Image Download Serverに追加
-3."ukiyoe_bot"というボットを作成し、Midjourney Image Download Serverに追加
+1. "Midjourney Image Download Server"というサーバを作成
+2. Midjourney BotをMidjourney Image Download Serverに追加
+3. "ukiyoe_bot"というボットを作成し、Midjourney Image Download Serverに追加
 参考URL：https://medium.com/@neonforge/how-to-create-a-discord-bot-to-download-midjourney-images-automatically-python-step-by-step-guide-90b6a8336e82
