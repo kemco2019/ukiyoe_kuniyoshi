@@ -1,0 +1,85 @@
+/* ===================================================================
+ * # background
+ *
+ * ------------------------------------------------------------------- */
+body {
+    background-origin: border-box;
+    background-image: url("logo.png"), url("washi.jpg"), url("background.jpg");
+    background-size:15%, 100%, 100%;
+    background-position-x: 3%, center, center;
+    background-position-y: 5%, 130%, center;
+    background-repeat:no-repeat, no-repeat, no-repeat;
+}
+
+/* ===================================================================
+ * # main
+ *
+ * ------------------------------------------------------------------- */
+input[type="radio"] {
+    transform: scale(2);
+}  
+#image_a{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+#image_b{
+    width: 20px;
+    height: 20px;
+    margin-left: 24%;
+    cursor: pointer;
+}
+#text_a{
+    width: 14%;
+    height: 14%;
+    margin-right: 22%;
+}
+#text_b{
+    width: 14%;
+    height: 14%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+#man{
+    width: 20%;
+    height: 20%;
+    margin-top: 16%;
+    margin-bottom: 1%;
+    margin-right: 10%;
+}
+#woman{
+    width: 20%;
+    height: 20%;
+    margin-top: 16%;
+    margin-bottom: 1%;
+    margin-left: 10%;
+}
+.check_label {
+    position: relative;
+}
+input[type="checkbox"] {
+    display: none;
+}
+
+.choices p{
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.img_choice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label img {
+    margin: 10px;
+}
+input[type="radio"] + label img {
+    opacity:1;
+}
