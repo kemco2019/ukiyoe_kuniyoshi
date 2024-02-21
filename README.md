@@ -1,14 +1,15 @@
 # AI国芳
+顔写真を基に歌川国芳の武者絵または美人画風の似顔絵を生成
 参考URL：https://studio.kemco.keio.ac.jp/ukiyoe2023/kuniyoshi_ichiran
 
 # 概要
 - camera.php:顔写真撮影ページ                                 
 - camera.py:撮影コード
-- download.py:
-- finish.php:
-- get_url.py:
-- making.php:
-- midjourney.py:
-- myfile.txt:
-- start.php:
-- upload.php:
+- download.py:生成画像自動保存コード
+- finish.php:生成画像表示ページ
+- get_url.py:生成画像の画像URL取得コード
+- making.php:画像生成待ちページ
+- midjourney.py:画像生成コード
+- myfile.txt:画像URL書き込みファイル
+- start.php:画風選択ページ
+- upload.php:生成画像アップロードページ
