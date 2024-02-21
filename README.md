@@ -23,3 +23,5 @@
 3. "ukiyoe_bot"というボットを作成し、Midjourney Image Download Serverに追加
 
 参考URL：https://medium.com/@neonforge/how-to-create-a-discord-bot-to-download-midjourney-images-automatically-python-step-by-step-guide-90b6a8336e82
+
+## デスクトップ画面の配置
