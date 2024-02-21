@@ -1,0 +1,55 @@
+/* ===================================================================
+ * # background
+ *
+ * ------------------------------------------------------------------- */
+body {
+    background-origin: border-box;
+    background-image: url("logo.png"), url("back.png");
+    background-size:15%, cover;
+    background-position-x: 5%, center;
+    background-position-y: 5%, center;
+    background-repeat:no-repeat, no-repeat;
+}
+
+/* ===================================================================
+ * # Image Selection
+ *
+ * ------------------------------------------------------------------- */
+.text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    font-weight: bold;
+    font-size: 170%;
+    text-shadow    : 
+       1px  1px 1px #ffffff,
+      -1px  1px 1px #ffffff,
+       1px -1px 1px #ffffff,
+      -1px -1px 1px #ffffff,
+       1px  0px 1px #ffffff,
+       0px  1px 1px #ffffff,
+      -1px  0px 1px #ffffff,
+       0px -1px 1px #ffffff; 
+}
+
+a.btn_03 {
+	display: block;
+	text-align: center;
+    position: relative;
+    top: 50%;
+	text-decoration: none;
+	width: 100px;
+	margin: auto;
+	padding: 1rem 4rem;
+	font-weight: bold;
+	color: #000000;
+    background-color: #fff;
+	border-radius: 100vh;
+	transition: 0.5s;
+}
+a.btn_03:hover {
+	color: #fff;
+	background: #000000;
+}
