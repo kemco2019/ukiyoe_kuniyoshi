@@ -6,7 +6,7 @@ from PIL import Image
 import os
 # Copyright © 2001-2023 Python Software Foundation; All Rights Reserved
 
-discord_token = "YOUR_DISCORD_BOT_TOKEN"
+discord_token = "YOUR_DISCORD_BOT_TOKEN" # ukiyoe_bot
 
 load_dotenv()
 client = commands.Bot(command_prefix="*", intents=discord.Intents.all())
