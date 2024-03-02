@@ -18,11 +18,11 @@
 ## データベース作成
 テーブル：ukiyoe2023_kuniyoshi
 
-|   name   |   type   | collating sequence |      default      |      other     |  
-| -------- | -------- | ------------------ | ----------------- | AUTO_INCREMENT |
-|    id    |   int    | ------------------ | ----------------- | -------------- |
-|   path   |   text   | utf8mb4_general_ci | ----------------- | -------------- |
-| datetime | datetime | ------------------ | CURRENT_TIMESTAMP | -------------- |
+| 名前 | タイプ | 照合順序 | デフォルト値 | その他 |  
+| -------- | -------- | ------------------ | ----------------- | -------------- |
+|    id    |   int    |  　|  | AUTO_INCREMENT |
+|   path   |   text   | utf8mb4_general_ci |  |  |
+| datetime | datetime |  | CURRENT_TIMESTAMP |  |
 
 ## Discord設定
 1. "Midjourney Image Download Server"というサーバを作成
