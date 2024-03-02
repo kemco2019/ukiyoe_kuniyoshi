@@ -1,9 +1,9 @@
 
 <?php
-$host = "mysql57.kemco.sakura.ne.jp";
-$dbName = "kemco_ukiyoe";
-$username = "kemco";
-$password = "h76-id_z";
+$host = "DATABASE_SERVER";
+$dbName = "DATABASE_NAME";
+$username = "USER_NAME";
+$password = "PASSWORD";
 
 $dsn = "mysql:host={$host};dbname={$dbName};charser=utf8";
 try {
@@ -13,7 +13,6 @@ try {
 }
     $sql = 'SELECT * FROM ukiyoe2023_kuniyoshi';
     $stmt = $dbh->prepare($sql);
-    //$stmt->bindValue(':id', 7, PDO::PARAM_INT);
 try {
     $stmt->execute();
 } catch (PDOException $e) {
@@ -39,4 +38,4 @@ $count = count($images);
         }
     ?>
 </div>
-<a href="ai.php" class="btn_03">戻る</a>
+<!-- <a href="ai.php" class="btn_03">戻る</a> -->
