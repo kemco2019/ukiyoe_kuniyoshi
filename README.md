@@ -15,8 +15,6 @@
 - upload.php:生成画像アップロードページ
 
 # 使用方法
-## データベース作成
-
 ## Discordの設定
 1. "Midjourney Image Download Server"というサーバを作成
 2. Midjourney BotをMidjourney Image Download Serverに追加
@@ -38,7 +36,7 @@
    python3 download.py
    python3 get_url.py
    ```
-1. camera.phpをロードしカメラを起動, 撮影(Cキー：撮影, Qキー：カメラ終了)
+1. camera.phpのロードによりカメラを起動, 撮影(Cキー：撮影, Qキー：カメラ終了)
 2. start.phpで武者絵風, 美人画風のいずれかを選択し丸印をクリック
 3. making.phpに遷移
 4. 画像生成が終わるとfinish.phpに遷移
