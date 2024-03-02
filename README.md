@@ -17,6 +17,7 @@
 # 使用方法
 ## データベース作成
 テーブル：ukiyoe2023_kuniyoshi
+
 |   name   |   type   | collating sequence |      default      |      other     |  
 | -------- | -------- | ------------------ | ----------------- | AUTO_INCREMENT |
 |    id    |   int    | ------------------ | ----------------- | -------------- |
