@@ -15,14 +15,22 @@
 - upload.php:生成画像アップロードページ
 
 # 使用方法
-## Discordの設定
+## データベース作成
+テーブル：ukiyoe2023_kuniyoshi
+|   name   |   type   | collating sequence |      default      |      other     |  
+| -------- | -------- | ------------------ | ----------------- | AUTO_INCREMENT |
+|    id    |   int    | ------------------ | ----------------- | -------------- |
+|   path   |   text   | utf8mb4_general_ci | ----------------- | -------------- |
+| datetime | datetime | ------------------ | CURRENT_TIMESTAMP | -------------- |
+
+## Discord設定
 1. "Midjourney Image Download Server"というサーバを作成
 2. Midjourney BotをMidjourney Image Download Serverに追加
 3. "ukiyoe_bot"というボットを作成し, Midjourney Image Download Serverに追加
 
 参考URL：https://medium.com/@neonforge/how-to-create-a-discord-bot-to-download-midjourney-images-automatically-python-step-by-step-guide-90b6a8336e82
 
-## デスクトップ画面の配置
+## デスクトップ配置
 以下の画像のように武者絵4枚, 美人画4枚, person.png, Discordをデスクトップに配置<br>
 各画像やDiscordのテキストボックスの座標を確認し, midjourney.py内のCoordinateの値を変更<br>
 <img src="https://github.com/kemco2019/ukiyoe_kuniyoshi/assets/128669621/fc8b7200-7cd7-4877-81b8-219ce9509432" width="800">
