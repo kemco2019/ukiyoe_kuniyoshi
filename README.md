@@ -13,6 +13,7 @@
 - myfile.txt:画像URL書き込みファイル
 - start.php:画風選択ページ
 - upload.php:生成画像アップロードページ
+- kuniyoshi_ichiran.php：作品一覧ページ(サーバ)
 
 # 使用方法
 ## データベース作成
