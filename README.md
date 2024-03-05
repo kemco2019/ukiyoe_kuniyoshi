@@ -3,6 +3,7 @@
 参考URL：https://studio.kemco.keio.ac.jp/ukiyoe2023/kuniyoshi_ichiran
 
 # 概要
+ローカル
 - camera.php:顔写真撮影ページ                                 
 - camera.py:撮影コード
 - download.py:生成画像自動保存コード
@@ -12,8 +13,10 @@
 - midjourney.py:画像生成コード
 - myfile.txt:画像URL書き込みファイル
 - start.php:画風選択ページ
-- upload.php:生成画像アップロードページ(サーバ)
-- kuniyoshi_ichiran.php：作品一覧ページ(サーバ)
+
+サーバ
+- upload.php:生成画像アップロードページ
+- kuniyoshi_ichiran.php：作品一覧ページ
 
 # 使用方法
 ## データベース作成
@@ -37,8 +40,12 @@
 各画像やDiscordのテキストボックスの座標を確認し, midjourney.py内のCoordinateの値を変更<br>
 <img src="https://github.com/kemco2019/ukiyoe_kuniyoshi/assets/128669621/fc8b7200-7cd7-4877-81b8-219ce9509432" width="800">
 
-## パスの書き換え
-
+## コードの書き換え
+以下の値を適切な値, 文字列に書き換える
+- download.py：YOUR_DISCORD_BOT_TOKEN
+- kuniyoshi_ichiran.php：DATABASE_SERVER, DATABASE_NAME, USER_NAME, PASSWORD
+- midjourney.py：YOUR_DISCORD_BOT_TOKEN, 0000000000000000000(CHANNEL)
+- upload.php：YOUR_PATH
 
 # 実行
 ** モニタ等を繋ぎ, デスクトップ画面とブラウザ画面を別画面で表示すること **
