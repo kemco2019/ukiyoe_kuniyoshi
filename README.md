@@ -1,5 +1,6 @@
 # AI国芳
 顔写真を基に歌川国芳の武者絵または美人画風の似顔絵を生成<br>
+画像生成AI：Midjourney
 参考URL：https://studio.kemco.keio.ac.jp/ukiyoe2023/kuniyoshi_ichiran
 
 # 概要
@@ -36,8 +37,9 @@
 参考URL：https://medium.com/@neonforge/how-to-create-a-discord-bot-to-download-midjourney-images-automatically-python-step-by-step-guide-90b6a8336e82
 
 ## デスクトップ配置
-以下の画像のように武者絵4枚, 美人画4枚, person.png, Discordをデスクトップに配置<br>
-各画像やDiscordのテキストボックスの座標を確認し, midjourney.py内のCoordinateの値を変更<br>
+以下の画像のようにdesktopフォルダ内の武者絵4枚, 美人画4枚, person.pngとDiscord画面をデスクトップに配置<br>
+Discordの「ユーザ設定>テーマ>拡大率」を調整し, 「/blend image1: image2: image3: image4: image5:」と入力した時に画像挿入枠5つが画面内に収まるようにする<br>
+get_pos.pyを実行するなどして各画像やDiscordのテキストボックスの座標を取得し, midjourney.py内のCoordinateの値を変更<br>
 <img src="https://github.com/kemco2019/ukiyoe_kuniyoshi/assets/128669621/fc8b7200-7cd7-4877-81b8-219ce9509432" width="800">
 
 ## コードの書き換え
