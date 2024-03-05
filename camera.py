@@ -21,4 +21,4 @@ def save_frame_camera_key(device_num, dir_path, basename, ext='jpg', delay=1, wi
 
     cv2.destroyWindow(window_name)
 
-save_frame_camera_key(0, 'PATH_TO_DESKTOP', 'person')
+save_frame_camera_key(0, 'PATH_TO_DESKTOP', 'person') # 第一引数：カメラ番号, 0以外の可能性あり
