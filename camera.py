@@ -1,5 +1,6 @@
 import cv2
 import os
+# Copyright © 2001-2023 Python Software Foundation; All Rights Reserved
 
 def save_frame_camera_key(device_num, dir_path, basename, ext='jpg', delay=1, window_name='frame'):
     cap = cv2.VideoCapture(device_num)
