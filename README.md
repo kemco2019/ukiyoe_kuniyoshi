@@ -37,8 +37,11 @@
 各画像やDiscordのテキストボックスの座標を確認し, midjourney.py内のCoordinateの値を変更<br>
 <img src="https://github.com/kemco2019/ukiyoe_kuniyoshi/assets/128669621/fc8b7200-7cd7-4877-81b8-219ce9509432" width="800">
 
+## パスの書き換え
+
+
 # 実行
-** モニタを繋ぐなどし, デスクトップ画面とブラウザ画面を別画面で表示すること **
+** モニタ等を繋ぎ, デスクトップ画面とブラウザ画面を別画面で表示すること **
 
 0. ローカルサーバを起動, download.py, get_url.pyは常時実行
    ```
