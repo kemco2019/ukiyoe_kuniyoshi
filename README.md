@@ -4,14 +4,14 @@
 参考URL：https://studio.kemco.keio.ac.jp/ukiyoe2023/kuniyoshi_ichiran
 
 # 概要
-ローカル
-- camera.php：顔写真撮影ページ                                 
+ローカル                                 
 - camera.py：撮影コード
 - download.py：生成画像自動保存コード
 - finish.php：生成画像表示ページ
 - get_pos.py：デスクトップの座標取得コード
 - get_url.py：生成画像の画像URL取得コード
 - making.php：画像生成待ちページ
+- mid-function.js：ローディング用js
 - midjourney：py:画像生成コード
 - myfile.txt：画像URL書き込みファイル
 - start.php：画風選択ページ
@@ -64,7 +64,7 @@ get_pos.pyを実行するなどして各画像やDiscordのテキストボック
    python3 download.py
    python3 get_url.py
    ```
-1. camera.phpのロードによりカメラを起動, 撮影(Cキー：撮影, Qキー：カメラ終了)
+1. start.phpのカメラボタンからカメラを起動, 撮影(Cキー：撮影, Qキー：カメラ終了)
 2. start.phpで武者絵風, 美人画風のいずれかを選択し丸印をクリック
 3. making.phpに遷移
 4. 画像生成が終わるとfinish.phpに遷移
