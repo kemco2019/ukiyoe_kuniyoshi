@@ -30,7 +30,7 @@
             <div class="img_choice2">
                 <input id="image_a" type="radio" value=0 name="maker" onclick="showLoader(); location.href='making.php?maker=' + this.value;">
                 <label for="image_a"><img src="check.png"></label>
-                <img src="bushi.png" id="text_a">
+                <img src="musya.png" id="text_a">
                 
                 <input id="image_b" type="radio" value=1 name="maker" onclick="showLoader(); location.href='making.php?maker=' + this.value;">
                 <label for="image_b"><img src="check.png"></label>
