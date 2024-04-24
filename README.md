@@ -43,7 +43,7 @@ css, imageフォルダの中身はコードと同じ階層に置く
 以下の画像のようにdesktopフォルダ内の武者絵4枚, 美人画4枚, person.pngとDiscord画面をデスクトップに配置<br>
 !! DiscordはMidjourney Image Download Serverを開いた状態にすること<br>
 Discordの「ユーザ設定>テーマ>拡大率」を調整し, 「/blend image1: image2: image3: image4: image5:」と入力した時に画像挿入枠5つが画面内に収まるようにする<br>
-get_pos.pyを実行するなどして各画像やDiscordのテキストボックスの座標を取得し, midjourney.py内のCoordinateの値を変更
+get_pos.pyを実行して各画像やDiscordのテキストボックスの座標を取得し, midjourney.py内のCoordinateの値を変更
 
 <img src="https://github.com/kemco2019/ukiyoe_kuniyoshi/assets/128669621/fc8b7200-7cd7-4877-81b8-219ce9509432" width="800">
 
