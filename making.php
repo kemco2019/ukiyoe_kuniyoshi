@@ -2,7 +2,7 @@
 <?php
 
 header("refresh:60;url=finish.php");
-$origin = $_POST['maker'];
+$origin = $_GET['maker'];
 
 if($origin == "0"){
     $img_a = "man.png";
