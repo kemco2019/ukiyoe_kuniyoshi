@@ -7,14 +7,17 @@
 ローカル                                 
 - camera.py：撮影コード
 - download.py：生成画像自動保存コード
-- finish.php：生成画像表示ページ
 - get_pos.py：デスクトップの座標取得コード
 - get_url.py：生成画像の画像URL取得コード
-- making.php：画像生成待ちページ
-- mid-function.js：ローディング用js
-- midjourney：py:画像生成コード
-- myfile.txt：画像URL書き込みファイル
+- midjourney.py:画像生成コード
+
 - start.php：画風選択ページ
+- making.php：画像生成待ちページ
+- finish.php：生成画像表示ページ
+
+- mid-function.js：ローディング用js
+- myfile.txt：画像URL書き込みファイル
+
 
 サーバ
 - upload.php：生成画像アップロードページ
