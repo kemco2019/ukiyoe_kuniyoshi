@@ -50,7 +50,7 @@ get_pos.pyを実行して各画像やDiscordのテキストボックスの座標
 
 <img src="https://github.com/kemco2019/ukiyoe_kuniyoshi/assets/128669621/fc8b7200-7cd7-4877-81b8-219ce9509432" width="800">
 
-## コードの書き換え
+## コード編集
 以下の値を適切な値, 文字列に書き換える
 - download.py：YOUR_DISCORD_BOT_TOKEN
 - kuniyoshi_ichiran.php：DATABASE_SERVER, DATABASE_NAME, USER_NAME, PASSWORD
