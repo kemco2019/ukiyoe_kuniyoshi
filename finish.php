@@ -8,6 +8,7 @@ if($handle = opendir($path)){
         if ($file != "." && $file != "..") {
             $fname = $path.$file;
             $mtime = filemtime( $fname );
+            //echo $mtime;
             if( $mtime > $latest_mtime ){
                 $latest_mtime = $mtime;
                 $latest_file = $fname;
@@ -40,4 +41,4 @@ echo ' id="result">';
 echo '</div>';
 
 ?>
-
+<a href="start.php" class="back_button">戻る</a>
