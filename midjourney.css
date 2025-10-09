@@ -1,0 +1,193 @@
+/* for start.php */
+
+/* ===================================================================
+ * # background
+ *
+ * ------------------------------------------------------------------- */
+body {
+    background-origin: border-box;
+    background-image: url("img/logo.png"), url("img/washi.jpg"), url("img/background.jpg");
+    background-size:15%, 100%, cover;
+    background-position-x: 3%, center, center;
+	background-position-y: 5%, center, center;
+	background-attachment: fixed;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#cam{
+    margin: auto;
+    text-align: center;
+    margin-top: 170px;
+    margin-bottom: 20px;
+}
+#btn-cam{
+    background-color: #e7d0a9;
+    font-size: large;
+}
+/* ===================================================================
+ * # 画像選択
+ *
+ * ------------------------------------------------------------------- */
+input[type="radio"] {
+    transform: scale(2); /* 2倍のサイズに拡大 */
+}  
+#image_a{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+#image_b{
+    width: 20px;
+    height: 20px;
+    margin-left: 22%;
+    cursor: pointer;
+}
+#text_a{
+    width: 14%;
+    height: 14%;
+    margin-right: 22%;
+}
+#text_b{
+    width: 14%;
+    height: 14%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+#man{
+    width: 20%;
+    height: 20%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: 10%;
+}
+#woman{
+    width: 20%;
+    height: 20%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 10%;
+}
+
+.check_label {
+    position: relative;
+}
+input[type="checkbox"] {
+    display: none;
+}
+
+#check_1{
+    position: relative;
+    right: auto;
+    left: 250px;
+}
+
+#check_2{
+    position: relative;
+    right: auto;
+    left: 420px;
+}
+ 
+#check_a{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    right: auto;
+    left: 250px;
+    /*
+    top: auto;
+    bottom: 30px;
+    */
+    background: url(img/check.png) no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+#check_a.on_check{
+    background: url(img/checked.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#check_b{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    right: auto;
+    left: 420px;
+    background: url(img/check.png) no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+#check_b.on_check{
+    background: url(img/checked.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+/* ラジオボタンの○を消す */
+.choices p{
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.img_choice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img_choice2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type="radio"] {
+    display: none;
+}
+/* 画像の周りに隙間をあける */
+label img {
+    margin: 10px;
+}
+/* 未選択の場合、色を薄くする */
+input[type="radio"] + label img {
+    opacity:1;
+}
+/* 選択済みの場合、色を濃くする */
+
+#prompt{
+    display: none;
+    text-align: center;
+}
+#prompt p{
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+/* ===================================================================
+ * # 遷移中画面
+ *
+ * ------------------------------------------------------------------- */
+ #Loading{
+    display: none;
+    align-items: center;
+}
+#loadings{
+    position: fixed;
+	margin: 0 auto;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+	text-align: center;
+	z-index: 2000;
+    background-color: white;
+}
+#layer_board_bg {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	display: none;
+	cursor: pointer;
+	background: #000;
+    opacity: 0.5;
+}

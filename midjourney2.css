@@ -1,0 +1,60 @@
+/* for finish.php */
+
+/* ===================================================================
+ * # background
+ *
+ * ------------------------------------------------------------------- */
+body {
+    background-origin: border-box;
+    background-image: url("img/logo.png"), url("img/jiku2.png"), url("img/back.png");
+    background-size:15%, 30%, 100%;
+    background-position-x: 5%, center, center;
+    background-position-y: 5%, center, center;
+    background-repeat:no-repeat, no-repeat, no-repeat;
+}
+
+/* ===================================================================
+ * # main
+ *
+ * ------------------------------------------------------------------- */
+#result{
+    /* width: 16%;
+    height: 16%;
+    margin-top: 21.6%; */
+    position: absolute;
+    width: auto;
+    height: calc(100vh * 340 / 900);
+    transform: translateY(calc(100vh * 385 / 900));
+}
+#save{
+    width: 5%;
+    height: 5%;
+    font-weight: bold;
+    font-size: large;
+    position: fixed;
+    right: 25%;
+    bottom: 5%;
+    /*background-color: black;
+    color: aliceblue;*/
+}
+/* 画像の周りに隙間をあける */
+label img {
+    margin: 10px;
+}
+.img_class{
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+}
+a.back_button{
+	position: fixed;
+	right: 17%;
+	bottom: 5%;
+	width: 50px;
+	font-weight: bold;
+	font-size: large;
+	background-color: #fff;
+	color: #000000;
+	border: 1px solid black;
+	padding: 0.5rem 1rem;
+}
