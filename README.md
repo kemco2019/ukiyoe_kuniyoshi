@@ -23,8 +23,6 @@
 - upload.php：生成画像アップロードページ
 - kuniyoshi_ichiran.php：作品一覧ページ
 
-css, imageフォルダの中身はコードと同じ階層に置く
-
 # 使用方法
 ## データベース作成
 テーブル：ukiyoe2023_kuniyoshi
